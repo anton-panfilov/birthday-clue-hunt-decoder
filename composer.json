@@ -1,0 +1,21 @@
+{
+  "name": "anton-panfilov/birthday-clue-hunt-decoder",
+  "homepage": "https://github.com/anton-panfilov/birthday-clue-hunt-decoder",
+  "license": "MIT",
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "authors": [
+    {
+      "name": "Anton Panfilov"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "AP\\Clues\\": "src/"
+    }
+  },
+  "require": {
+    "php": "^8.3",
+    "ext-mbstring": "*"
+  }
+}
